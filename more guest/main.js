@@ -7,9 +7,9 @@ let guestlist = ["Azlan", "huma", "asad", "anila", "fahad", "mayera"];
 let absentguest = guestlist[0];
 console.log(absentguest, "Will not come");
 guestlist.splice(0, 1, "rabekah");
-console.log('good news! we have found a big dinne table');
-guestlist.unshift("ali"); //start index
-guestlist.push("zain"); //end.index
+console.log('good news! we have found a big dinner table');
+guestlist.unshift("ali"); //start index replace frst one
+guestlist.push("zain"); //end.index//add at the end
 //middle indewx . dont hv fnc. so
 let middleindex = Math.floor(guestlist.length / 2);
 guestlist.splice(middleindex, 0, "osama");
